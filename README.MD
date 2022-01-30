@@ -1,6 +1,6 @@
-# C7 Superheroes Full Stack
+# C7 Door Counter
 
-Welcome to the c7 full stack superheroes app brought to you by Team PUNISHERS!
+An actual door counter app (like we built on day 1)
 
 ## Quick start:
 
@@ -10,15 +10,8 @@ Welcome to the c7 full stack superheroes app brought to you by Team PUNISHERS!
 
 Point your browser at http://localhost:5000/
 
-Ooops, you forgot to load some data!
 
 ## Developer Setup
-
-### Seed Data
-Your connection string to the database can be found at models/mongooseDb.js.  Eventually this should be an environment variable.  Load your initial data before you launch the server.
-
-    cd server
-    node models/loadInitialData
 
 ### Launching the server
 
@@ -33,16 +26,3 @@ Your server will now be running on port 5000.  It will serve the latest build of
     npm start
 
 Note that there is a proxy defined in the client/package.json to redirect API calls to your server, so you MUST be running your server when working in development mode.
-
-
-### Staging Environment
-
-Lives at https://superheroes-staging.herokuapp.com/
-
-To push changes to staging environment, push to release branch
-
-### Production ###
-
-Lives at https://superheroesregistry.herokuapp.com/
-
-Promote from staging on Heroku

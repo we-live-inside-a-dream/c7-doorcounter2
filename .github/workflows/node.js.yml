@@ -39,6 +39,6 @@ jobs:
 
     - name: upload ci artifact
       uses: actions/upload-artifact@v2
-        with:
-          name: ci-build${{ matrix.node-version }}
-          path: deploy
+       with:
+        name: ci-build${{ matrix.node-version }}
+        path: deploy

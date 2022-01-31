@@ -29,3 +29,16 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
+    - name: create deploy folder
+        run:
+          mkdir deploy
+          cp package.json deploy
+          cp -r server deploy
+          mkdir deploy/client
+          cp -r client/build deploy/client
+
+    - name: upload ci artifact
+      uses: actions/upload-artifact@v2
+        with:
+          name: ci-build${{ matrix.node-version }}
+          path: deploy

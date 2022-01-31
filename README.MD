@@ -5,7 +5,7 @@ An actual door counter app (like we built on day 1)
 ## Quick start:
 
     npm install
-    npm build-client
+    npm run build
     npm start
 
 Point your browser at http://localhost:5000/

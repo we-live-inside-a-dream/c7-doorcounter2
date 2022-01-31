@@ -28,7 +28,7 @@ async function incrementCounter(name) {
 
 async function decrementCounter(name) {
     let counter = await findOrCreateCounter(name)
-    // if (counter.value) counter.value--
+    if (counter.value) counter.value--
     return counter
 }
 

@@ -1,5 +1,7 @@
 # C7 Door Counter
 
+[![Node.js CI](https://github.com/we-live-inside-a-dream/c7-doorcounter2/actions/workflows/node.js.yml/badge.svg)](https://github.com/we-live-inside-a-dream/c7-doorcounter2/actions/workflows/node.js.yml)
+
 An actual door counter app (like we built on day 1)
 
 ## Quick start:
